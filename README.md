@@ -1,2 +1,3 @@
 # AI-Ethics-exercise
 AI Ethics exercise
+Avaliação de aplicações para cartões de crédito é uma tarefa que bancos comerciais comumente utilizam de inteligência artificial para automatizar. Neste exemplo, iremos desenvolver um modelo de regressão logística (uma das técnicas mais comuns em aprendizagem de máquina) para resolver um problema de classificação binária: classificar um indivíduo (caracterizado com uma série de características/features) como “Aprovado” ou “Reprovado” para receber um cartão de crédito. O intuito deste exercício é explorar algumas técnicas para se explorar um modelo de aprendizagem de máquina, e criar relatórios de segurança/cartas de modelo.
