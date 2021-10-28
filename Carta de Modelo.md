@@ -7,7 +7,7 @@ Detalhes do Modelo
 3.	Este modelo foi treinado apenas por motivações acadêmicas, e ele não segue nenhum tipo de restrição de equidade/justiça. Ele não foi criado para ser implementado em aplicações reais;
 4.	O conjunto de dados utilizado é o Credit Approval Data Set da UCI Machine Learning Repository. Disponível em: http://archive.ics.uci.edu/ml/datasets/credit+approval; 
 5.	O código para este modelo pode ser encontrado em: https://github.com/Nkluge-correa/AI-Ethics-exercise; 
-6.	Contato: nicholas.corrêa@acad.pucrs.br. 
+6.	Contato: nicholas.correa@acad.pucrs.br. 
 
 Uso Pretendido
 
