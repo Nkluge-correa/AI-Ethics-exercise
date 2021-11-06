@@ -27,7 +27,7 @@ Métricas
 2.	O modelo possui uma tendência maior para classificar pessoas que deveriam ser aprovadas como reprovados (Falsos Negativos = 11%), do que aprovar pessoas que deveriam ser reprovadas (Falsos Positivos = 0.2%); 
 3.	Sugestão: reprovações devem ser melhor investigadas/analisadas; 
 4.	Dados de treinamento e testagem foram divididos do conjunto de dados fornecidos pela UCI Machine Learning Repository (i.e., Credit Approval Data Set).
-5.	Este conjunto de dados foi escolhido por sua disponibilidade pública.
+5.	Este conjunto de dados foi escolhido por sua disponibilidade pública;
 6.	Amostras com valores ausentes (i.e., “”?” ou “NaN”) tiveram tais valores substituídos pelo valor médio de sua característica específica.
 
 
