@@ -7,7 +7,8 @@ Detalhes do Modelo
 3.	Este modelo foi treinado apenas por motivações acadêmicas, e ele não segue nenhum tipo de restrição de equidade/justiça. Ele não foi criado para ser implementado em aplicações reais;
 4.	O conjunto de dados utilizado é o Credit Approval Data Set da UCI Machine Learning Repository. Disponível em: http://archive.ics.uci.edu/ml/datasets/credit+approval; 
 5.	O código para este modelo pode ser encontrado em: https://github.com/Nkluge-correa/AI-Ethics-exercise; 
-6.	Contato: nicholas.correa@acad.pucrs.br. 
+6.	Licença: MIT License;
+7.	Contato: nicholas.correa@acad.pucrs.br. 
 
 Uso Pretendido
 
@@ -26,13 +27,17 @@ Métricas
 2.	O modelo possui uma tendência maior para classificar pessoas que deveriam ser aprovadas como reprovados (Falsos Negativos = 11%), do que aprovar pessoas que deveriam ser reprovadas (Falsos Positivos = 0.2%); 
 3.	Sugestão: reprovações devem ser melhor investigadas/analisadas; 
 4.	Dados de treinamento e testagem foram divididos do conjunto de dados fornecidos pela UCI Machine Learning Repository (i.e., Credit Approval Data Set).
+5.	Este conjunto de dados foi escolhido por sua disponibilidade pública.
+6.	Amostras com valores ausentes (i.e., “”?” ou “NaN”) tiveram tais valores substituídos pelo valor médio de sua característica específica.
+
 
 Considerações Éticas
 
 1.	Dada a distribuição enviesada dos dados de treinamento, o modelo pode se comportar de forma ineficiente quando lidando com amostras pouco vistas;
-2.	Recomenda-se que para aplicações reais, atributos sensíveis (e.g., raça e gênero) e atributos contendo valores “anormais” (e.g., renda) não sejam utilizados para classificação;
-3.	De acordo com os coeficientes de correlação, e coeficientes aprendidos pelo modelo, atributos sensíveis não interferem na classificação do modelo;
-4.	Os atributos mais correlacionados com o Status de Aprovação do solicitante são: “Inadimplência Prévia”, “Dívida”, “Empregado” e “Crédito”.
+2.	O modelo utiliza de dados sensíveis (i.e., Raça e Gênero);
+3.	Recomenda-se que para aplicações reais, atributos sensíveis (e.g., raça e gênero) e atributos contendo valores “anormais” (e.g., renda) não sejam utilizados para classificação;
+4.	De acordo com os coeficientes de correlação, e coeficientes aprendidos pelo modelo, atributos sensíveis não interferem na classificação do modelo;
+5.	Os atributos mais correlacionados com o Status de Aprovação do solicitante são: “Inadimplência Prévia”, “Dívida”, “Empregado” e “Crédito”.
 
 Detalhes e Recomendações
 
